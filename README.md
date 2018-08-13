@@ -16,6 +16,10 @@ foo@bar:~ $ rerun "python -m unittest discover"
 
 You should see something like the following:
 
-![test harness output](./screenshot.png)
+![failing output](./screenshots/failing.png)
 
 Then, open up [tests/test_katas.py](./tests/test_katas.py) and start fixing those TODOs!
+
+Once complete, you should see the following test output:
+
+![passing output](./screenshots/passing.png)
