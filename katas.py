@@ -1,20 +1,20 @@
 def add(x, y):
-    """ Return the result of adding x to y. """
+    """Return the result of adding x to y."""
     return x + y
 
 
 def multiply(x, y):
-    """ Return the result of multiplying x by y. """
+    """Return the result of multiplying x by y."""
     result = 0
 
     for _ in range(abs(y)):
         result = add(result, x)
-        
+
     return -result if y < 0 else result
 
 
 def power(x, n):
-    """ Return the result of taking x to the nth power. """
+    """Return the result of taking x to the nth power."""
     result = 1
 
     for _ in range(n):
@@ -24,7 +24,7 @@ def power(x, n):
 
 
 def factorial(n):
-    """ Return the result of calculating the factorial of n. """
+    """Return the result of calculating the factorial of n."""
     result = 1
 
     for i in range(1, n + 1):
@@ -34,7 +34,7 @@ def factorial(n):
 
 
 def fibonacci(n):
-    """ Return the nth number in the fibonacci sequence (starting at 0). """
+    """Return the nth number in the fibonacci sequence (starting at 0)."""
     if n < 3:
         return n - 1
     else:
